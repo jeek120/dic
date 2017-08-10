@@ -6,6 +6,7 @@ This is a dictory under command line,you can special remote url include traslate
 
 Format
 ==================
+<pre>
 config.json format followed:  
 {  
     "{scheme}"://the second args  
@@ -19,6 +20,7 @@ config.json format followed:
         "dir":["/Users/jeekyuan/english/dic/{word}"]//cache dir,one of array must readed and writed  
     }  
 }  
+</pre>
 
 
 dic {scheme} {word}  
