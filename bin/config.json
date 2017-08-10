@@ -1,0 +1,31 @@
+{
+  "default":{
+    "url":"http://www.ldoceonline.com/dictionary/{word}",
+    "filter":[
+      ".DEF",
+      "index:0"
+    ],
+    "enable":true,
+    "dir":["/Users/jeekyuan/english/dic/{word}"]
+  },
+  "bri":{
+    "url":"http://www.ldoceonline.com/dictionary/{word}",
+    "filter":[
+      ".brefile",
+      "attr:data-src-mp3"
+    ],
+    "enable":true,
+    "dir":["/Users/jeekyuan/english/sound/{scheme}/{word}{suff}"],
+    "cmd":"sh open {path}"
+  },
+  "amei":{
+    "url":"http://www.ldoceonline.com/dictionary/{word}",
+    "filter":[
+      ".amefile",
+      "attr:data-src-mp3"
+    ],
+    "enable":true,
+    "dir":["/Users/jeekyuan/english/sound/{scheme}/{word}{suff}"],
+    "cmd":"sh open {path}"
+  }
+}
