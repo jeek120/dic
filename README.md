@@ -25,6 +25,13 @@ config.json format followed:
 dic {scheme} {word}
 the scheme is "default" if you type "dic {word}"
 
+Operate
+=============
+You can set cmd in config.json
+cmd followed:
+"player" : use dic's player to play sound
+"text"   : do nothing
+"sh"     : running a command. for example: sh mplayer.exe {path}
 
 Variable
 ==============
