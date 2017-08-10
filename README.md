@@ -1,7 +1,6 @@
 # dic
 Dictory under command line
 
-===========================
 This is a dictory under command line,you can special remote url include traslate and sound.For Example:config.json
 
 
