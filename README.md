@@ -22,24 +22,29 @@ config.json format followed:
 }  
 </pre>
 
-
+<pre>
 dic {scheme} {word}  
 the scheme is "default" if you type "dic {word}"  
+</pre>
 
 Operate
 =============
 You can set cmd in config.json  
 cmd followed:  
+<pre>
 "player" : use dic's player to play sound  
 "text"   : do nothing  
 "sh"     : running a command. for example: sh mplayer.exe {path}  
+</pre>
 
 Variable
 ==============
+<pre>
 {word}   : word searched  
 {path}   : path cached  
 {scheme} : config.json's key  
 {suff}   : the suffer of found result by Filter  
+</pre>
 
 
 Play Sournd
